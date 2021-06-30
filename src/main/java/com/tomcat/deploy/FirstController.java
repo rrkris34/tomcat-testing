@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api")
 public class FirstController {
-	String n[]= {"James","Sharan","Hari","Ramesh","Vijay","Suresh","Raghavendra"};
+	String n[]= {"James","Sharan","Hari","Ramesh","Vijay"};
   @GetMapping("/greet")
   public String greet() {
 	  return "Hi!!! Spring boot is running - Jenkin webhook testing";
